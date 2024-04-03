@@ -1,7 +1,32 @@
+@import "./variables.css";
+@import "./typography.css";
+
 *,
 *::after,
 *::before {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+body {
+  background-color: var(--primary-clr);
+  color: var(--secondary-clr);
+  font-family: var(--main-font), var(--default-font);
+  font-weight: 400;
+  font-size: var(--main-fs);
+}
+
+/* Typography */
+.headline {
+  font-family: var(--highlight-font), var(--default-font);
+  font-size: var(--headline-fs);
+}
+
+.subheadline {
+  font-size: var(--subheadline-fs);
+}
+
+small {
+  font-size: var(--small-fs);
 }
