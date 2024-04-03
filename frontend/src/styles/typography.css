@@ -1,36 +1,36 @@
 @font-face {
   font-family: "Great Vibes";
-  src: url("../../../public/fonts/great-vibes-latin-400-normal.woff2")
+  src: url("/fonts/great-vibes-latin-400-normal.woff2")
     format("woff2");
   font-weight: 400;
 }
 
 @font-face {
   font-family: "Inter";
-  src: url("../../../public/fonts/inter-latin-300-normal.woff2") format("woff2");
+  src: url("fonts/inter-latin-300-normal.woff2") format("woff2");
   font-weight: 300;
 }
 
 @font-face {
   font-family: "Inter";
-  src: url("../../../public/fonts/inter-latin-400-normal.woff2") format("woff2");
+  src: url("/fonts/inter-latin-400-normal.woff2") format("woff2");
   font-weight: 400;
 }
 
 @font-face {
   font-family: "Inter";
-  src: url("../../../public/fonts/inter-latin-600-normal.woff2") format("woff2");
+  src: url("/fonts/inter-latin-600-normal.woff2") format("woff2");
   font-weight: 600;
 }
 
 @font-face {
   font-family: "Inter";
-  src: url("../../../public/fonts/inter-latin-800-normal.woff2") format("woff2");
+  src: url("/fonts/inter-latin-800-normal.woff2") format("woff2");
   font-weight: 800;
 }
 
 @font-face {
   font-family: "Inter";
-  src: url("../../../public/fonts/inter-latin-900-normal.woff2") format("woff2");
+  src: url("/public/fonts/inter-latin-900-normal.woff2") format("woff2");
   font-weight: 900;
 }
