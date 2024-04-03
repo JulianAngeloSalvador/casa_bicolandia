@@ -1,3 +1,12 @@
-export default function Root() {
-  return <></>;
+import React from 'react'
+import Navbar from '../components/Navbar/Navbar'
+
+const Root = () => {
+  return (
+    <div>
+      <Navbar/>
+    </div>
+  )
 }
+
+export default Root
