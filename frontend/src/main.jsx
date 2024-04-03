@@ -1,11 +1,12 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 import "./styles/global.css";
+import "bootstrap/dist/css/bootstrap.min.css";
 import { RouterProvider, createBrowserRouter } from "react-router-dom";
 import NotFound from "./pages/NotFound";
 import Root from "./routes/Root";
-import Login from "./pages/Login/Login";
-
+import Login from "./pages/auth/Login";
+import App from "./pages/App";
 
 const router = createBrowserRouter([
   {
@@ -13,8 +14,9 @@ const router = createBrowserRouter([
     element: <Root />,
     errorElement: <NotFound />,
     children: [
-      {path: "/login", element: <Login/>}
-    ]
+      { index: true, element: <App /> },
+      { path: "login", element: <Login /> },
+    ],
   },
 ]);
 
