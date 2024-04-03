@@ -13,7 +13,7 @@ body {
   background-color: var(--primary-clr);
   color: var(--secondary-clr);
   font-family: var(--main-font), var(--default-font);
-  font-weight: 400;
+  font-weight: var(--defaultweight);
   font-size: var(--main-fs);
 }
 
@@ -29,4 +29,24 @@ body {
 
 small {
   font-size: var(--small-fs);
+}
+
+.container {
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.btn {
+  background: var(--cta-clr);
+  color: var(--secondary-clr);
+  font-weight: 600;
+  padding: 14px 25px;
+  font-size: 20px;
+  border-radius: 15px;
+  cursor: pointer;
+  border: 0;
+  outline: 0;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
 }
