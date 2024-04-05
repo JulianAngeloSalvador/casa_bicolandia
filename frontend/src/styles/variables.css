@@ -1,6 +1,11 @@
 @import "./typography.css";
 
 :root {
+  /* guidelines */
+  --guide1: 1px solid #903838;
+  --guide2: 1px solid #1c6565;
+
+  /* App palette */
   --primary-clr: #fefae0;
   --secondary-clr: #242424;
   /* --secondary-clr: #ccd5ae; */
@@ -22,7 +27,7 @@
 
   /* Font-Weights */
   --light: 300;
-  --defaultweight: 400; 
+  --defaultweight: 400;
   --bold: 600;
   --extrabold: 800;
 }

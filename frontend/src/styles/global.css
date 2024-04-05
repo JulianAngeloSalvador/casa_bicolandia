@@ -50,3 +50,7 @@ small {
   align-items: center;
   justify-content: center;
 }
+
+#root {
+  background-color: green;
+}
