@@ -1,0 +1,43 @@
+@import "../../styles/variables.css";
+@import "../../styles/global.css";
+
+.hero {
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)), url('/public/assets/hero.png');
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+}
+
+.hero-left {
+    text-align: center;
+    max-width: 800px;
+    flex-basis: 56%;
+    position: relative;
+}
+
+.hero-left h1 {
+    font-size: 60px;
+    font-weight: 600;
+}
+
+.hero-left p {
+    max-width: 700px;
+    margin: 10px auto 20px;
+    line-height: 1.4;
+}
+
+.hero-right {
+    flex-basis: 40%;
+}
+
+
+.hero-right-img {
+    width: 100%;
+    border-radius: 10px;
+}
