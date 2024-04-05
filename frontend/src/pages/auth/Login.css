@@ -1,0 +1,35 @@
+ #formContainer {
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: min(700px, 80%);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}  
+
+.login {
+    width: 100%;
+}
+
+.login-l {
+    position: relative;
+}
+
+
+.login-r{
+    border: 1px solid black;
+}
+
+#formContainer > * {
+    outline: 1px solid red;
+    flex: 1 0;
+  }
+
+  img {
+    max-width: 100%;
+    height: auto;
+    object-fit: cover;
+    }
