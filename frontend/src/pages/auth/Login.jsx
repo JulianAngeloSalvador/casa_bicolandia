@@ -1,18 +1,33 @@
 import React from "react";
+import "./Login.css";
+import authside from "/assets/authside.jpg";
 
-import Form from "react-bootstrap/Form";
+import FloatingLabel from 'react-bootstrap/FloatingLabel';
+import Form from 'react-bootstrap/Form';
 
 export default function Login() {
   return (
-    <Form>
-      <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
-        <Form.Label>Email address</Form.Label>
-        <Form.Control type="email" placeholder="name@example.com" />
-      </Form.Group>
-      <Form.Group className="mb-3" controlId="exampleForm.ControlTextarea1">
-        <Form.Label>Example textarea</Form.Label>
-        <Form.Control as="textarea" rows={3} />
-      </Form.Group>
-    </Form>
+
+    <section id="formContainer" className="login">
+
+
+    <div className="login-l">
+    <img src={authside} alt=""/>
+    </div>
+    
+    <div className="login-r">
+    <FloatingLabel
+      controlId="floatingInput"
+      label="Email address"
+      className="mb-3"
+    >
+      <Form.Control type="email" placeholder="name@example.com" />
+    </FloatingLabel>
+    <FloatingLabel controlId="floatingPassword" label="Password">
+      <Form.Control type="password" placeholder="Password" />
+    </FloatingLabel>
+    </div>
+
+  </section>
   );
 }
