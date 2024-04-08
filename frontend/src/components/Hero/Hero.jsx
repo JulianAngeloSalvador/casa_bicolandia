@@ -8,7 +8,7 @@ const Hero = () => {
     <div className='hero mycontainer'>
       <div className="hero-left">
         <h1>Casa Bicolandia</h1>
-        <p>Lorem Ipsum asdahdagsdajsdagsdashdasdh</p>
+        <p>Casa Bicolandia Suites is located at the heart of Daraga, Albay where beautiful landmarks and popular tourist spots await you. Book your room now.</p>
         <button className='btn'>Explore <img src={dark_arrow} alt="" /></button>
       </div>
       <div className="hero-right">
