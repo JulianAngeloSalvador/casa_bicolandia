@@ -19,6 +19,7 @@
     max-width: 800px;
     flex-basis: 56%;
     position: relative;
+    margin: auto;
 }
 
 .hero-left h1 {
@@ -34,10 +35,17 @@
 
 .hero-right {
     flex-basis: 40%;
+    margin-left: auto;
+    align-items: center;
+    justify-content: center;
 }
 
 
 .hero-right-img {
     width: 100%;
-    border-radius: 10px;
+    border-radius: 20rem 20rem 0 0; 
+    max-width: 600px;
+    border: 8px solid rgba(0, 0, 0, 0.52);
+    margin-top: 100px;
+    margin-bottom: 100px;
 }
