@@ -8,6 +8,7 @@
   /* App palette */
   --primary-clr: #fefae0;
   --secondary-clr: #242424;
+  --dim: rgba(0,0,0,0.7);
   /* --secondary-clr: #ccd5ae; */
   --cta-clr: #d4a373;
 
