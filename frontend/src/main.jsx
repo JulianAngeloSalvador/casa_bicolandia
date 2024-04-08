@@ -6,6 +6,7 @@ import { RouterProvider, createBrowserRouter } from "react-router-dom";
 import NotFound from "./pages/NotFound";
 import Root from "./routes/Root";
 import Login from "./pages/auth/Login";
+import Signup from "./pages/auth/Signup";
 import App from "./pages/App";
 
 const router = createBrowserRouter([
@@ -16,6 +17,7 @@ const router = createBrowserRouter([
     children: [
       { index: true, element: <App /> },
       { path: "login", element: <Login /> },
+      { path: "signup", element: <Signup /> }
     ],
   },
 ]);
