@@ -1,6 +1,6 @@
 import React from "react";
 import "./Login.css";
-import authside from "/assets/authside.jpg";
+import angel from "/assets/angel.jpg";
 
 import FloatingLabel from 'react-bootstrap/FloatingLabel';
 import Form from 'react-bootstrap/Form';
@@ -16,14 +16,16 @@ export default function Login() {
     <section id="formContainer" className="login">
 
     <div className="login-l">
-    <img src={authside} alt=""/>
+    <img src={angel} alt=""/>
     </div>
+
+
     
 
 
-
+    <div className="container p-4">
     <div className="login-r">
-      <h5 class="mb-5">Sign In</h5>
+      <h5 class="mb-3 p-2">Sign In</h5>
     <FloatingLabel
       controlId="floatingInput"
       label="Email address"
@@ -35,7 +37,7 @@ export default function Login() {
       <Form.Control type="password" placeholder="Password" />
     </FloatingLabel>
     <div class="d-grid gap-2">
-      <button class="btn btn-dark mt-3 mb-1" type="button">Login</button>
+      <button class="btn btn-secondary mt-3 mb-1 p-2" type="button">Login</button>
     </div>
 
     <div class="text-center">
@@ -43,10 +45,11 @@ export default function Login() {
     </div>
 
 
-    <div class="container"> 
-    <div class="row">
-    <button class="col-md-6 mt-2 btn btn-secondary" type="button" id="facebook"><MdFacebook /> Facebook</button>
-    <button class="col-md-6 mt-2 btn btn-secondary" type="button"><AiFillGoogleCircle />Gmail </button>
+    <div className="container"> 
+    <div className="row">
+    <button class="col-md-6 mt-2 p-2 btn btn-secondary" type="button" id="facebook"><MdFacebook /> Facebook</button>
+    <button class="col-md-6 mt-2 p-2 btn btn-secondary" type="button"><AiFillGoogleCircle />Gmail </button>
+    </div>
     </div>
     </div>
     </div>
