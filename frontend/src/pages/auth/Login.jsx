@@ -25,7 +25,18 @@ export default function Login() {
 
     <div className="container p-4">
     <div className="login-r">
-      <h5 class="mb-3 p-2">Sign In</h5>
+
+      <div className="slide-controls">
+      <input type="radio" name="slide" id="login" checked></input>
+      <input type="radio" name="slide" id="signup"></input>
+      <label for="login" class="slide login">Login</label>
+      <label for="signup" class="slide signup">Signup</label>
+      <div class="slider-tab"></div>
+      </div>
+      
+
+
+      
     <FloatingLabel
       controlId="floatingInput"
       label="Email address"
