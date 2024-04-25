@@ -25,10 +25,6 @@
     width: 50%;
 }
 
-body {
-    position:
-    height: 100%;
-  }
 
 
 
@@ -37,15 +33,4 @@ body {
     width: 50%;
     padding-top: 50px;
     padding-bottom: 50px; 
-}
-
-.Swipe {
-    background-position: center;
-    width: 300px;
-    padding: 20;
-}
-
-.img {
-    display: block;
-    width: %; 
 }
