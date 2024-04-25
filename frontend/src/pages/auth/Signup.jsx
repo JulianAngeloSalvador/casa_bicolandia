@@ -1,30 +1,24 @@
 import React from "react";
-import "./Login.css";
+import "./Signup.css";
 import angel from "/assets/angel.jpg";
+
 
 import FloatingLabel from 'react-bootstrap/FloatingLabel';
 import Form from 'react-bootstrap/Form';
 
-// Icons: 
-import { MdFacebook } from "react-icons/md";
-import { AiFillGoogleCircle } from "react-icons/ai";
 
 
-export default function Login() {
+export default function Signup() {
   return (
 
-    <section id="formContainer" className="login">
+    <section id="formContainer" className="signup">
 
-    <div className="login-l">
+    <div className="signup-l">
     <img src={angel} alt=""/>
     </div>
-
-
     
-
-
-  
-    <div className="login-r">
+    <div className="container p-3">
+    <div className="signup-r">
 
       <div className="slide-controls">
       <input type="radio" name="slide" id="login" checked></input>
@@ -36,7 +30,8 @@ export default function Login() {
       
 
 
-      
+
+
     <FloatingLabel
       controlId="floatingInput"
       label="Email address"
@@ -44,38 +39,26 @@ export default function Login() {
     >
       <Form.Control type="email" placeholder="name@example.com" />
     </FloatingLabel>
-    <FloatingLabel controlId="floatingPassword" label="Password">
+
+    <FloatingLabel controlId="floatingPassword" label="Password"  className="mb-3">
+      <Form.Control type="password" placeholder="Password" />
+    </FloatingLabel>
+
+    <FloatingLabel controlId="floatingPassword" label="Re-type Password">
       <Form.Control type="password" placeholder="Password" />
     </FloatingLabel>
     <div class="d-grid gap-2">
-      <button class="btn btn-secondary mt-3 mb-1 p-2" type="button">Login</button>
+      <button class="btn btn-secondary mt-3 mb-1" type="button">Sign Up</button>
     </div>
 
-    <div class="text-center">
-    <paragraph>or sign up using</paragraph>
+    <div className="text-center" >
+      <p>Already have an account? Sign In</p>
     </div>
 
-
-    <div className="container"> 
-    <div className="row">
-    <button class="col-md-6 mt-2 p-2 btn btn-secondary" type="button" id="facebook"><MdFacebook /> Facebook</button>
-    <button class="col-md-6 mt-2 p-2 btn btn-secondary" type="button"><AiFillGoogleCircle />Gmail </button>
     </div>
     </div>
-    </div>
-   
 
   </section>
-
-
-
-
-
-  
-
-
-
-
 
 
 
