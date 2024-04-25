@@ -50,7 +50,7 @@ import { FaPumpSoap } from "react-icons/fa6";
 
 export default function Amen() {
     return (
-      <section className="container p-5">
+      <section className=" p-5">
         <div className="row">
           <div className="col-sm">
             <h3 className="Hotel-amenities">Hotel Amenities</h3>
@@ -133,7 +133,7 @@ export default function Amen() {
         }}
         pagination={true}
         modules={[EffectCoverflow, Pagination]}
-        className="mySwiper"
+        className="MySwiper"
       >
         <SwiperSlide>
           <img src="https://swiperjs.com/demos/images/nature-1.jpg" />
@@ -159,9 +159,7 @@ export default function Amen() {
         <SwiperSlide>
           <img src="https://swiperjs.com/demos/images/nature-8.jpg" />
         </SwiperSlide>
-        <SwiperSlide>
-          <img src="https://swiperjs.com/demos/images/nature-9.jpg" />
-        </SwiperSlide>
+    
       </Swiper>
     </div>
 
