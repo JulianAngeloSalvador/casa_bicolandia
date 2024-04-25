@@ -17,9 +17,21 @@ export default function Signup() {
     <img src={angel} alt=""/>
     </div>
     
-
+    <div className="container p-3">
     <div className="signup-r">
-      <h5 class="mb-5">Sign Up</h5>
+
+      <div className="slide-controls">
+      <input type="radio" name="slide" id="login" checked></input>
+      <input type="radio" name="slide" id="signup"></input>
+      <label for="login" class="slide login">Login</label>
+      <label for="signup" class="slide signup">Signup</label>
+      <div class="slider-tab"></div>
+      </div>
+      
+
+
+
+
     <FloatingLabel
       controlId="floatingInput"
       label="Email address"
@@ -43,6 +55,7 @@ export default function Signup() {
       <p>Already have an account? Sign In</p>
     </div>
 
+    </div>
     </div>
 
   </section>

@@ -23,7 +23,7 @@ export default function Login() {
     
 
 
-    <div className="container p-4">
+  
     <div className="login-r">
 
       <div className="slide-controls">
@@ -63,7 +63,7 @@ export default function Login() {
     </div>
     </div>
     </div>
-    </div>
+   
 
   </section>
 
