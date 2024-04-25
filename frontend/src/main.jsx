@@ -9,6 +9,7 @@ import Login from "./pages/auth/Login";
 import Signup from "./pages/auth/Signup";
 import App from "./pages/App";
 import Amen from "./pages/Amen";
+//import Run from "./components/Run";
 
 const router = createBrowserRouter([
   {
@@ -19,7 +20,8 @@ const router = createBrowserRouter([
       { index: true, element: <App /> },
       { path: "login", element: <Login /> },
       { path: "signup", element: <Signup /> },
-      { path: "amenities", element: <Amen/>}
+      { path: "amenities", element: <Amen/>},
+     // { path: "run", element: <Run/>},
     ],
   },
 ]);
